@@ -70,7 +70,6 @@ header {
     font-family:"Halyard Text Regular";
     font-style: normal;
     font-weight: normal;
-    padding: auto;
     font-size: 16px;
     line-height: 40px;
     background: #3751FF;
@@ -126,7 +125,6 @@ header {
 .white__button {
     width: 200px;
     height: 50px;
-    padding: auto;
     align-items: center;
     background: #fff;
     color: #455880;
@@ -163,4 +161,20 @@ header {
     justify-content: space-between;
     margin-top: 48px;
     margin-bottom: 150px;
+}
+.clients__title {
+    width: 510px;
+    height: 145px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image__position__team {
+    position: relative;
+    left: 0;
+    top: -131px;
 }
