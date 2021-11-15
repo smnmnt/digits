@@ -178,3 +178,169 @@ header {
     left: 0;
     top: -131px;
 }
+.team__ability {
+    display: flex;
+}
+.ability__column {
+    margin-top: 122px;
+    margin-left: 168px;
+}
+.ability__line {
+    width: 367px;
+    padding-left: 110px;
+    border-bottom: 1px solid rgba(69, 88, 128, 0.2);
+    padding-bottom: 50px;
+    margin-bottom: 41px;
+}
+.ability__line:last-child {
+    border: none;
+}
+.first__line{
+    background: left top 5px url(../img/figmalogo.svg) no-repeat;
+}
+.second__line{
+    background: left top 5px url(../img/contentlogo.svg) no-repeat;
+}
+.third__line{
+    background: left top 5px url(../img/lightninglogo.svg) no-repeat;
+}
+.ability__name {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 125%;
+    color: #1E266D;
+    margin-bottom: 45px;
+}
+.ability__content {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #455880;
+    width: 262px;
+}
+.section__drafts {
+    padding-top: 139px;
+    padding-bottom: 580px;
+    background: #FFF9EA url(../img/drafts.png) no-repeat bottom;
+}
+.drafts__elements {
+    text-align: center;
+}
+.drafts__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+    
+}
+.drafts__content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 410px;
+    font-size: 21px;
+    line-height: 150%;
+    text-align: center;
+    color: #455880;
+}
+.section__reviews {
+    padding-top: 232px;
+}
+.reviews__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+    margin-bottom: 60px;
+}
+.reviews__box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.review__box {
+    width: 373px;
+    height: 467px;
+    padding: 42px;
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+    text-align: center;
+}
+.review__content {
+    margin-bottom: 43px;
+    font-size: 18px;
+    line-height: 180%;
+    color: #455880;
+    text-align: left;
+}
+.profilephoto {
+    border-radius: 32px;
+    margin-bottom: 30px;
+}
+.profilenamelink {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    text-align: center;
+    color: #1E266D;
+    
+}
+.review__sitelink {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #455880;
+}
+.section__intouch {
+    background: #3751FF;
+}
+.container__intouch {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 88px;
+    padding-bottom: 115px;
+}
+.intouch__title {
+    width: 430px;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.intouch__box {
+    height: 120px;
+    padding-top: 28px;
+    width: 290px;
+    text-align: center;
+}
+.intouch__button {
+    cursor: pointer;
+    width: 245px;
+    height: 56px;
+    outline: none;
+    border: none;
+    background: #FFFFFF url(../img/envelope.svg) no-repeat 27px center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+    font-size: 18px;
+    line-height: 110%;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 53px;
+    color: #455880;
+    margin-bottom: 17px;
+}
+.takeapeek {
+    font-size: 16px;
+    line-height: 125%;
+    text-align: right;
+    color: #DFE0EB;
+}
+.studiolink {
+    text-decoration: none;
+    color: #FED385;
+}
